@@ -1,0 +1,113 @@
+* {
+    font-family: "Spartan", sans-serif;
+}
+
+#sto {
+    padding-bottom: 20rem;
+}
+a {
+    color: #424450;
+}
+
+.four-container {
+    i {
+        font-size: 8.5rem;
+    }
+
+    background-color: #f8f3ef;
+ 
+
+  
+    &--home{
+        p {
+            font-size: 2rem;
+        }
+    }
+    &--secondary {
+        p {
+            font-size:1rem;
+        }
+    }
+
+    
+ 
+    @media only screen and (min-width: 1500px) {
+        &--secondary {
+            p {
+                font-size:1.5rem;
+            }
+        }
+    }
+    @media only screen and (max-width: 1100px) {
+        &--home p {
+            font-size: 1.3rem;
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        &--secondary {
+            .icons {
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+                border-top: 1.5px solid #c7a28d;
+                &:first-of-type {
+                    border-top: 0;
+                }
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        &--secondary {
+            .icons {
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+                border-top: 1.5px solid #c7a28d;
+                &:first-of-type {
+                    border-top: 0;
+                }
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 989px) and (min-width: 767px) {      
+        &--secondary{
+            .icons:nth-child(1){
+                border-bottom: 1.5px solid #c7a28d;
+            }
+            .icons:nth-child(2){
+                border-bottom: 1.5px solid #c7a28d;
+            }
+        }
+        
+    }
+    
+
+    @media screen and (min-width: 1100px) {
+        .icons{
+            border-left: 1.5px solid #c7a28d;
+            &:first-of-type {
+                border: 0;
+            }
+        }
+    }
+    @media screen and (min-width: 500px) {
+        .icons {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+            p {
+                font-size: 1rem ;
+            }
+    }
+}
